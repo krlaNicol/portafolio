@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Train+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../public/css/lamp.css">
 </head>
 
 <body>
@@ -57,7 +58,7 @@
             <img src="../public/img/photo2.png" alt="">
         </div>
         <div class="introduction">
-            <h2>¡Hola! Soy Karla,</h2><h3> Desarrolladora Web Full Stack,</h3>
+            <h2>¡Hola! Soy Karla,</h2><h3> Desarrolladora Web Full Stack, Java</h3>
         </div>
         <div class="bottons">
             <div>
@@ -111,26 +112,51 @@
             <h2>TECHNOLOGIES</h2>
         </div>
         <div class="technologies">
-            <div class="imgTechonologies">
-                <img src="../public/img/gmail.webp" alt="mail">
+
+            <div id="technologies1" class="imgTechonologies">
+                <img src="../public/img/gmail.webp" alt="html">
             </div>
-            <div class="imgTechonologies">
-                <img src="../public/img/github.webp" alt="gitHub">
+            <div id="technologies2" class="imgTechonologies">
+                <img src="../public/img/github.webp" alt="js">
             </div>
-            <div class="imgTechonologies">
-                <img src="../public/img/linkedin.webp" alt="linkedInd">
+            <div id="technologies3" class="imgTechonologies">
+                <img src="../public/img/linkedin.webp" alt="css">
             </div>
-            <div class="imgTechonologies">
-                <img src="../public/img/github.webp" alt="gitHub">
+            <div id="technologies4" class="imgTechonologies">
+                <img src="../public/img/github.webp" alt="java">
             </div>
-            <div class="imgTechonologies">
-                <img src="../public/img/linkedin.webp" alt="linkedInd">
+            <div id="technologies5" class="imgTechonologies">
+                <img src="../public/img/github.webp" alt="github">
             </div>
+            <div id="technologies6" class="imgTechonologies">
+                <img src="../public/img/linkedin.webp" alt="figma">
+            </div>
+
         </div>
-        
+
+<!-- inicio seccion Experiencia .........................................................................-->
+        <div class="bottonTechnologies">
+            <h2>EXPERIENCE</h2>
+        </div>
        
+<!-- lampara -->
+        <div class="containeLamp">
+            <div class="lamp">
+
+                <div class="wire"></div>
+                <div class="wire1"></div>
+                <div class="box">
+                    <input type="radio" onclick="encender(0)">
+                </div>
+                <div class="light"></div>
         
+            </div>
+            <div class="divEmpty"></div>  <!--....div vacio para controlar el posicionamiento de lamp ....-->
+            <div class="divEmpty1"></div>
+        </div>
+        <div class="footLight"></div>
     </main>
+    <script src="/src/js/lamp.js"></script>
 </body>
 
 </html>
