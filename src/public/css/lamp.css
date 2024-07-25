@@ -18,10 +18,35 @@
     z-index: -20;
 }
 .wire1{
-    width: 300px;
-    height: 200px;
-    background-color: #00ddff;
-    z-index: -30;
+    width: 25%;
+    height: 100%;
+    background-color: transparent;
+    position: relative;
+    left: 25%;
+    top: -9%;
+    border-left: 3px solid white;
+    border-top: 3px solid white;
+
+}
+
+.circle{
+    width: 20px;
+    height: 20px;
+    background-color: #dedede;
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+    right: 95%;
+}
+
+.circle1{
+    width: 20px;
+    height: 20px;
+    background-color: #dedede;
+    border-radius: 50%;
+    position: absolute;
+    top: 60%;
+    right: 95%;
 }
 
 .box{
@@ -35,6 +60,8 @@
     align-items: center;
     justify-content: center;
     box-shadow: 0 0 10px #ffaa00,0 0 5px #ffa200;
+    bottom: 100%;
+    z-index: 100;
 }
 .light{
     max-width: 400px;
@@ -42,7 +69,8 @@
     height: 500px;
     clip-path: polygon(44% 0, 56% 0, 100% 100%, 0 100%);
     padding-top: 30px;
-
+    position: relative;
+    bottom: 100%;
 }
 .l0{
     background: linear-gradient(rgba(255, 128, 0, 0.45), rgba(112, 76, 6, 0.103));
@@ -53,19 +81,35 @@ input {
     accent-color: #00ddff;
     cursor: pointer;
 }
+/* ---------------------------------recuadros descripcion de la experiencia ------------------------------*/
+
+
+.texExperience1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    padding-top: 9%;
+    z-index: 110;
+    right: 25%;
+}
+
+.texExperience1 p {
+    width: 450px;
+    height: 80px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid yellow;
+    box-shadow: inset 0 0 10px #FFB900, 0 0 15px #FFB900;
+    color: aliceblue;
+    padding-left: 25px;
+}
 
 .footLight{
     width: 100%;
     height: 10px;
     background-color: #ffffff;
 }
-/* .divEmpty{
-width: 800px;
-height: 500px;
-background-color: #00ddff;
-}
-.divEmpty1{
-    width: 800px;
-    height: 500px;
-    background-color: #001eff;
-    } */
