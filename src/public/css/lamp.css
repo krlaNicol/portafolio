@@ -90,24 +90,27 @@ input {
     position: relative;
     display: flex;
     flex-direction: column;
-    gap: 10%;
-    padding-top: 9%;
+    gap: 15%;
+    padding-top: 5%;
     z-index: 110;
-    right: 25%;
+    right: 15%;
+    
 }
 
 .texExperience1 p {
-    width: 450px;
-    height: 80px;
+    width: 800px;
+    height: 250px;
     margin-top: 5%;
     margin-bottom: 2%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     border: 2px solid yellow;
     box-shadow: inset 0 0 10px #FFB900, 0 0 15px #FFB900;
     color: aliceblue;
-    padding-left: 25px;
+    padding-left: 35px;
+    padding-top: 10px;
+    size: 1rem;
 }
 
 .footLight{

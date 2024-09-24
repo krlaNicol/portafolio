@@ -10,7 +10,9 @@
       /* Agrega prefijos si es necesario */
 
 }
-
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     background-color: #090E1B;
@@ -22,7 +24,7 @@ body{
 
 header{
     position: relative;
-    height: 8%;
+    height: 7%;
     background-color: #090E1B;
     border: solid black 2px;
     display: flex;
@@ -147,8 +149,29 @@ main .photo img{
     font-size:2rem;
 }
 
-
 .bottons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 10px;
+}
+.bottonP{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    margin-top: 90px;
+}
+.bottonT{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    margin-top: 90px;
+    
+}
+.bottonE{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -156,8 +179,12 @@ main .photo img{
     margin-top: 90px;
 }
 
+.item{
+    scroll-margin-top: 10px;
+}
+
 .bottons div{
-    width: 150px;
+    width: 180px;
     height: 40px;
     display: flex;
     justify-content: center;
@@ -166,13 +193,27 @@ main .photo img{
     box-shadow: inset 0 0 10px #FFB900, 0 0 15px #FFB900;
 }
 
-.bottons h2{
+
+.bottons .bottonT{
+    width: 230px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid yellow;
+    box-shadow: inset 0 0 10px #FFB900, 0 0 15px #FFB900;
+}
+
+.bottons a{
   
     color: aliceblue;
     text-align: center;
     font-size: 1.2rem;
+    justify-content: center;
     font-family: "Train One", system-ui;
     font-weight: 100;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .sectionCv{
@@ -205,6 +246,7 @@ main .photo img{
     animation: rotar 5s linear infinite;
 }
 
+
 @keyframes rotar{
     from{
         transform: rotateY(180deg);
@@ -217,6 +259,7 @@ main .photo img{
 .cv:hover{
     cursor: pointer;
 }
+
 
 .baseCv{
     width:10%;
@@ -300,8 +343,13 @@ main .photo img{
     width: 98%;
     height: 98%;
     object-fit: cover;
-   
+    cursor: pointer;
 }
+
+.contentProyects .proyects:hover{
+    transform: scale(1.05);
+}
+
 
 .contentProyects div{
     margin-top: 45px;
