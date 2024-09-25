@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperatura</title>
+    <link rel="stylesheet" href="../public/css/projects/temperatura.css">
+</head>
+<body>
+<div class="titulo">
+    <h1>Temperaturas</h1>
+    <h4>Bienvenido, aqui podras realizar conversiones de temperatura de °C a °F y °K </h4>
+</div>
+<main>
+<div class="contenedorResultado">
+<div class="organizar">
+    <div>
+        <input required name="celsius" id="celsius" autocomplete="off" type="number" placeholder="    Temperatura en °C" minlength="3">
+    </div>
+    <button onclick="convertirAF()" class="botton">Convertir</button>
+    <p id="resultadoC"></p>
+    <p id="resultadoK"></p>
+</div>
+</main>
+</body>
+<script src="../public/js/temperatura.js"></script>
+</html>
